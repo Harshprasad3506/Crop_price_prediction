@@ -1,0 +1,24 @@
+{
+    "project": "Crop Price Prediction",
+    "algorithm": "Support Vector Regression (SVR)",
+    "problem_type": "Regression",
+    "target": "avg_modal_price",
+    "dataset": "crop_price_dataset.csv",
+    "dataset_rows_after_cleaning": 2810,
+    "training_rows": 2248,
+    "testing_rows": 562,
+    "test_size": 0.2,
+    "svr_parameters": {
+        "kernel": "rbf",
+        "C": 100.0,
+        "epsilon": 0.1,
+        "gamma": "scale"
+    },
+    "metrics": {
+        "MAE": 2516.0969044536905,
+        "MSE": 22147027.74525776,
+        "RMSE": 4706.062870941883,
+        "R2": -0.05570017731583632
+    },
+    "generated_at": "2026-09-18T12:49:57"
+}
